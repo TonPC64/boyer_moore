@@ -94,6 +94,7 @@ void BM(char *x, int m, char *y, int n){
 		if(i<0){
 			printf("Found at %d \n", j);
 				j+=bmGs[0];
+            printf("\nj = %d\n", j);
 		}
 		else {
 			j+=MAX(bmGs[i], bmBc[y[i+j]] -m +1 +i);
