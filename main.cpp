@@ -13,9 +13,9 @@ void main(){
 	string patt, text;
 
 	cout<<"Enter Text :";
-	cin>>text;
+	getline(cin,text);
 	cout<<"Enter Pattern :";
-	cin>>patt;
+	getline(cin,patt);
 
 
 	char *x = &patt[0u];
